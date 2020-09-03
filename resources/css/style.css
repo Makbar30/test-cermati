@@ -50,7 +50,7 @@
 /* Header & Hero Shot */
 .container-header {
   height: 650px;
-  background: #004a75 url("./resources/assets/work-desk__dustin-lee.jpg") center center no-repeat;
+  background: #004a75 url("../assets/work-desk__dustin-lee.jpg") center center no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
   position: relative;
@@ -135,6 +135,20 @@
 
 /* Header & Hero shot Responsive*/
 @media screen and (max-width: 575px) {
+  .desc-title {
+    font-size: 26px;
+    margin-bottom: 0.2rem;
+  }
+  .desc-subtitle {
+    padding: 0 10px;
+  }
+  .desc-content {
+    font-size: 18px;
+    padding: 0px 65px;
+  }
+}
+
+@media screen and (max-width: 380px) {
   .desc-title {
     font-size: 26px;
     margin-bottom: 0.2rem;
